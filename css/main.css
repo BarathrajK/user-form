@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
+    height: 100vh;
+    overflow: hidden;
+}
+.container{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.card {
+    padding: 60px 40px 70px 40px;
+    background: #fff;
+    border-radius: 20px;
+}
+#email{
+    border: none;
+    background: #ca96e0;
+    padding-bottom: 24px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    
+}
+#password{
+    border: none;
+    background: #ca96e0;
+    padding-bottom: 24px;
+    padding-top: 10px;
+    padding-top: 20px;
+}
+.form1 input[type=email]{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.form1 input[type=text]{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.card a{
+    text-decoration: none;
+    position: relative;
+    top: -17px;
+    left: 255px;
+    color: #b8a7c0;
+
+}
+.card input[type=checkbox]{
+    margin-top: 20px;
+}
+.card i{
+    font-size: 35px;
+    background: #5209b1;
+    padding: 0px 19px 20px 20px;
+    margin: -5px;
+}
+.card input[type=submit]{
+    border: none;
+    background: #fff;
+    padding: 19px 110px 31px 107px;
+    position: absolute;
+    top: 235px;
+    left: 70px;
+    font-size: 15px;
+    border-radius: 20px;
+
+}
+.form1{
+    position: relative;
+}
+.icon i{
+    position: absolute;
+    top: -55px;
+    transform: translateX(125%);
+    font-size: 86px;
+    background: #2c2287;
+    color: #fff;
+    width: 60px;
+    height: 80px;
+    border-radius: 80px;
+    border: 5px solid #fff;
+    display: inline-flex;
+    justify-content: center;
+}
+
+
+    
