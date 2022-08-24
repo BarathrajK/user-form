@@ -1,46 +1,54 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: linear-gradient(120deg,#2980b9,#8e44ad);
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
     height: 100vh;
     overflow: hidden;
 }
-.container{
+
+.container {
     top: 50%;
     left: 50%;
     position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
+
 .card {
     padding: 60px 40px 70px 40px;
     background: #fff;
     border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgb(21, 22, 22);
 }
-#email{
+
+#email {
     border: none;
     background: #ca96e0;
     padding-bottom: 24px;
     margin-bottom: 20px;
     padding-top: 20px;
-    
+
 }
-#password{
+
+#password {
     border: none;
     background: #ca96e0;
     padding-bottom: 24px;
     padding-top: 10px;
     padding-top: 20px;
 }
-.form1 input[type=email]{
+
+.form1 input[type=email] {
     padding-left: 10px;
     padding-top: 15px;
 }
-.form1 input[type=text]{
+
+.form1 input[type=text] {
     padding-left: 10px;
     padding-top: 15px;
 }
-.card a{
+
+.card a {
     text-decoration: none;
     position: relative;
     top: -17px;
@@ -48,16 +56,19 @@ body{
     color: #b8a7c0;
 
 }
-.card input[type=checkbox]{
+
+.card input[type=checkbox] {
     margin-top: 20px;
 }
-.card i{
+
+.card i {
     font-size: 35px;
     background: #5209b1;
     padding: 0px 19px 20px 20px;
     margin: -5px;
 }
-.card input[type=submit]{
+
+/* .card input[type=submit]{
     border: none;
     background: #fff;
     padding: 19px 110px 31px 107px;
@@ -67,11 +78,31 @@ body{
     font-size: 15px;
     border-radius: 20px;
 
+} */
+.stack {
+    position: absolute;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 20px;
+    background-color: rgb(189, 191, 192);
+    font-size: 15px;
+    top: 180px;
+    left: 65px;
+    z-index: -1;
+    border: none;
+    color: white;
 }
-.form1{
+
+span {
+    position: relative;
+    top: 30px;
+}
+
+.form1 {
     position: relative;
 }
-.icon i{
+
+.icon i {
     position: absolute;
     top: -55px;
     transform: translateX(125%);
@@ -85,6 +116,3 @@ body{
     display: inline-flex;
     justify-content: center;
 }
-
-
-    
